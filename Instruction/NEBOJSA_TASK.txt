@@ -1,0 +1,42 @@
+Main tasks: Make a portfolio site about yourself, your interest, and your experience(with examples) 
++
+   - site code must be on the your github repo, with clear commits(not the big commit in the end) 
+-
+   - site will have minimum of three html pages(connected trough header links) 
++
+   - site must have header(static, follows the scrolling of the page, also in header there must be an option to go to diff pages)
++ 
+   - site must have a footer - Sticky footer(also follows the scrolling of the page and it's scalling properly)
++ 
+   - all pages must have the same header and footer, where header is highlighting on what page you are(making link bolder or something)
++  
+   - along side using custom css, you must use bootstrap for most of the stuff, especially grids
++
+   - no serbian
++  
+   - make sure that site is resposive on all relevant browsers and screens(you can skip interner explorer compatibility)
+-   
+   - make sure that there is a home(introduction page)
++
+   - make sure that there is a portfolio page where you present your work in the grids
++
+   - make sure that on one of the pages there is a info about you with a map showing "Vrbovac"
++   
+
+Other/Bonus: 
+   - use as less css as possible(do not compromise stability, everything needs to work)
+   - use css for animation(no jquery)
+   - use jquery in same places like opening a dropdown menus
+   - use some kind of carousel(only if using jquery)
+   - extra bonus and points for good UX/UI 
+   - finish everything before deadline, including the bonus stuff(bonus will scale with time left)
+
+Deadline - for Main tasks deadline is three days(24h), for other/bonus stuff is 8h
+   for the resurses you received from me and that you can online easily find is more than enough time to finish all
+
+Portofolio examples:
+   - "https://collegeinfogeek.com/personal-website-examples/"
+
+P.S - 2015-te meni je trebalo oko 14h sati za sve ovo plus jedna stranica vise, 
+  i sa kompleksnim dizajnom(kad su me testirali za neki posao), ali sam mozda imao par nedelja vise iskustva od tebe(mozda i manje)
+   

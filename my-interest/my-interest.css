@@ -1,0 +1,11 @@
+main {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 20rem;
+}
+
+.container {
+    position: relative;
+    min-height: 22.5vh;
+}
+

@@ -1,0 +1,14 @@
+#map iframe{
+    margin: 0 auto;
+    padding-top: 8rem;
+    width: 800px;
+    height: 800px; 
+    border: 0; 
+}
+
+h1 {
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+    color: whitesmoke;
+}
