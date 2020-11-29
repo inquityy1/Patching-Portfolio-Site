@@ -1,4 +1,4 @@
-#para {
+p {
 	color: white;
 	font-size: 1.4rem;
 	margin-top: 5px;
@@ -7,6 +7,9 @@
 	letter-spacing: .05rem;
 }
 
+#services .services .service-bottom p {
+	color: white;
+}
 
 /* Services Section */
 #services .services {
@@ -16,10 +19,21 @@
 	margin: 0 auto;
 	padding: 100px 0;
 }
+
 #services .service-top {
 	max-width: 500px;
 	margin: 0 auto;
 }
+
+#services .service-top h1 {
+	color: white;
+	text-transform: uppercase;
+}
+
+#services .service-top h1 span {
+	color: red;
+}
+
 #services .service-bottom {
 	display: flex;
 	align-items: center;
@@ -35,26 +49,30 @@
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(./img/img-1.png);
+	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,1)) ,url(./img/img-1.png);
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
 }
+
 #services .service-bottom .icon {
 	height: 80px;
 	width: 80px;
 	margin-bottom: 20px;
 }
+
 #services .service-item h2 {
 	font-size: 2rem;
 	color: white;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
+
 #services .service-item p{
 	color: black;
 	text-align: left;
 }
+
 /* End Services Section */

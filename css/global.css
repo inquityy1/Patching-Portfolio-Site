@@ -27,7 +27,7 @@ main {
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #000000;
-	transition: background 2s ease, color 2s ease, padding 2s ease;
+	transition: background 0.5s ease, color 0.5s ease, padding 0.5s ease;
 }
 
 .nav-links a:hover {
@@ -65,7 +65,7 @@ main {
 	height: 4px;
 	margin: 5px;
 	background: #1005ac;
-	transition: transform 2s ease, opacity 2s ease;
+	transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
 .btn {
@@ -86,6 +86,72 @@ main {
 
 .change .bar3 {
 	transform: rotate(45deg) translate(-7px,-8px);
+}
+
+/* Footer */
+.footer-container {
+	background-color: rgb(51, 51, 61);
+	min-height: 20vh;
+}
+
+.banner {
+	display: flex;
+	justify-content: center;
+    text-transform: uppercase;
+	font-size: 20px;
+}
+
+.banner a {
+	color: red;
+	text-decoration: none;
+	margin-top: 20px;
+}
+
+.banner span {
+	color: white;
+	margin-left: 5px;
+}
+
+.folow {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 20px;
+	margin-top: 20px;
+}
+
+.folow h3 {
+	color: white;
+	text-transform: uppercase;
+}
+
+.svg-inline--fa {
+	color: red;
+	transition: color 0.5s ease;
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+.svg-inline--fa:hover {
+	color: white;
+}
+
+.copyrights {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	background-color: rgb(51, 51, 61);
+}
+
+.copyrights a {
+	color: red;
+	margin-left: 5px;
+	flex-wrap: wrap;
+}
+
+.copyrights a:hover {
+	text-decoration: none;
 }
 
 @media screen and (min-width:662px) {
@@ -133,69 +199,4 @@ main {
 		padding-left: 10px;
 		background-color: red;
     }
-}
-
-/* Footer */
-.footer-container {
-	background-color: rgb(51, 51, 61);
-	min-height: 20vh;
-}
-
-.banner {
-	display: flex;
-	justify-content: center;
-    text-transform: uppercase;
-	font-size: 20px;
-}
-
-.banner a {
-	color: red;
-	text-decoration: none;
-}
-
-.banner span {
-	color: white;
-	margin-left: 5px;
-}
-
-.folow {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	letter-spacing: 20px;
-	margin-top: 20px;
-}
-
-.folow h3 {
-	color: white;
-	text-transform: uppercase;
-}
-
-.svg-inline--fa {
-	color: red;
-	transition: color 2s ease;
-	font-size: 30px;
-	margin-top: 20px;
-}
-
-.svg-inline--fa:hover {
-	color: white;
-}
-
-.copyrights {
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
-	background-color: rgb(51, 51, 61);
-}
-
-.copyrights a {
-	color: red;
-	margin-left: 5px;
-	flex-wrap: wrap;
-}
-
-.copyrights a:hover {
-	text-decoration: none;
 }
