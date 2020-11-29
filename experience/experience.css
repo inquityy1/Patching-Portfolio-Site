@@ -7,6 +7,10 @@ p {
 	letter-spacing: .05rem;
 }
 
+.nav-links .here {
+    background: red;
+}
+
 #services .services .service-bottom p {
 	color: white;
 }
@@ -74,5 +78,4 @@ p {
 	color: black;
 	text-align: left;
 }
-
 /* End Services Section */

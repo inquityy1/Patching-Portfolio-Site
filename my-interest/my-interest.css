@@ -1,11 +1,10 @@
 main {
-    position: relative;
-    margin: 0 auto;
-    padding-top: 20rem;
+    height: 70vh;
 }
 
-.container {
-    position: relative;
-    min-height: 22.5vh;
+
+
+.nav-links .here {
+    background: red;
 }
 
