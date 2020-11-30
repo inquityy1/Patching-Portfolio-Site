@@ -21,11 +21,12 @@
 .my-interests .left-side {
     border-right: 4px solid rgb(102, 4, 116);
     display: flex;
-    background-image: url(./img/img-left.jpeg); 
+    background-image: url(./img/img-left.jpeg);
 }
 
 .my-interests .left-side h1 {
     align-self: center;
+    color: white;
 }
 
 .my-interests .right-side {
@@ -39,11 +40,6 @@
 .my-interests .right-side h1 {
     color: black;
     align-self: center;
-    justify-content: center;
-}
-
-.my-interests h1 {
-    color: white;    
 }
 
 @media screen and (max-width:452px) {
