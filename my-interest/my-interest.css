@@ -1,10 +1,58 @@
-main {
-    height: 70vh;
-}
-
-
-
 .nav-links .here {
     background: red;
+}
+
+.interests {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-interests {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(178, 192, 194);
+    height: 50vh;
+    width: 80vw;
+}
+
+.my-interests .left-side {
+    border-right: 4px solid rgb(102, 4, 116);
+    display: flex;
+    background-image: url(./img/img-left.jpeg); 
+}
+
+.my-interests .left-side h1 {
+    align-self: center;
+}
+
+.my-interests .right-side {
+    display: flex;
+    background-image: url(./img/img-right.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.my-interests .right-side h1 {
+    color: black;
+    align-self: center;
+    justify-content: center;
+}
+
+.my-interests h1 {
+    color: white;    
+}
+
+@media screen and (max-width:452px) {
+    .my-interests .right-side h1 {
+        font-size: 20px;
+    }
+
+    .my-interests .left-side h1 {
+        font-size: 20px;
+    }
 }
 
