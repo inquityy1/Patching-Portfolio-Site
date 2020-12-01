@@ -21,7 +21,7 @@
 .my-interests .left-side {
     border-right: 4px solid rgb(102, 4, 116);
     display: flex;
-    background-image: url(./img/img-left.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,1)) ,url(./img/img-left.jpeg);
 }
 
 .my-interests .left-side h1 {
@@ -31,7 +31,7 @@
 
 .my-interests .right-side {
     display: flex;
-    background-image: url(./img/img-right.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,1)) ,url(./img/img-right.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
